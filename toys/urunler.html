@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <title>Ürünler</title>
+  </head>
+  <body>
+    <!--header section start-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/arzu.png" alt="logo" height="100" />
+        </a> 
+        <nav class="navbar">
+            <a href="#home">Anasayfa</a>
+            <a href="#about">Hakkımızda</a>
+            <a href="ürünler"class="active">Ürünler</a>
+            <a href="#">İletişim</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input 
+            type="text" 
+            class="search-input" 
+            id="search-box"
+            placeholder="Ara"
+            />
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+    <!--header section end-->
+
+
+    <!--products section start -->
+    <section class="products" id="products">
+        <h1 class="heading">FIRSAT<span>ÜRÜNLERİ</span><h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="box-head">
+                        <span class="title">MUTLU YILLAR BARBİE</span>
+                        <a href="#" class="name">Barbie 2022 Mutlu Yıllar Bebeği</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/myb.jpg" alt="" />
+                    </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">499.99TL</b>
+                            <span class="amount">İnternete Özel Fiyat</span>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#">
+                                <i class="fas fa-plus"></i> <!--artı ekledim--> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-head">
+                        <span class="title">DİNO BALON</span>
+                        <a href="#" class="name">Squeakee İnteraktif Dino Balon</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/bln.jpg" alt="" />
+                    </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">2.249,99TL</b>
+                            <span class="amount">İnternete Özel Fiyat</span>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#">
+                                <i class="fas fa-plus"></i> <!--artı ekledim--> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-head">
+                        <span class="title">ROBOT RAMPASI</span>
+                        <a href="#" class="name">Robogo Action Time Robot Rampası</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/rbg.jpg" alt="" />
+                    </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">149.99TL</b>
+                            <span class="amount">İnternete Özel Fiyat</span>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#">
+                                <i class="fas fa-plus"></i> <!--artı ekledim--> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-head">
+                        <span class="title">EĞİTİCİ KÖPEKÇİK </span>
+                        <a href="#" class="name">Fisher Price Eğitici Köpekçik </a>
+                    </div>
+                    <div class="image">
+                        <img src="images/fpe.jpg" alt="" />
+                    </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">449.99TL</b>
+                            <span class="amount">İnternete Özel Fiyat</span>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#">
+                                <i class="fas fa-plus"></i> <!--artı ekledim--> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--products section end -->
+
+
+    <!--contact section start -->
+    <section class="contact">
+        <h1 class="heading"><span>İletişim</span></h1>
+            <div class="row"> <!--kapsayıcı-->
+             <img src="images/phn.gif" style="font-weight:100px;height: 120px;" alt="">
+                <div class="content">
+                 <h3>Müşteri Hizmetleri</h3>
+                  <p>0216 499 1 999</p>
+                </div>
+            </div>
+
+    </section>
+
+    <!--contact section end -->
+
+    <!--footer section start -->
+    <section class="footer ">
+        <div class="search">
+            <input type="text" 
+            class="search-input"
+            placeholder="search"/>
+            <button class="btn btn-primary">Arama</button>
+        </div>
+    </seciton>
+    <!--contact section end -->
+
+
+
+    <script src="js/script.js"></script> <!--import ettim-->
+  </body>
+</html>
